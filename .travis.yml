@@ -20,56 +20,56 @@ script:
     - mega-get https://mega.nz/file/YqAgDDDS#OTPMNjpdGwqIkwL2SS3iD52xmSwtqcLcDplAr84edXs aCapitulo_007.mp4
     - mega-get https://mega.nz/file/g3QQhDQY#jLiVLOe_obaqoHEqIT2nVJDA9yqYWMymRgHBRgjasgE aCapitulo_007.srt
     - ffmpeg -i aCapitulo_007.mp4 -i aCapitulo_007.srt -c copy -c:s mov_text Capitulo_007.mp4
-    - travis-wait 20 curl -T Capitulo_007.mp4 https://transfer.sh/Capitulo_007.mp4
+    - travis_wait 20 curl -T Capitulo_007.mp4 https://transfer.sh/Capitulo_007.mp4
     - mega-get https://mega.nz/file/4qJAmBKL#K2oxpWgmEDwb1mtFeHANNSopj5V0KcH_Q1qZNKhnalA aCapitulo_008.mp4
     - mega-get https://mega.nz/file/g6IAnbxY#PWtFqpLsaVwQjy-VemWx-794Jo-x3fBDkqRSM5xXXXE aCapitulo_008.srt
     - ffmpeg -i aCapitulo_008.mp4 -i aCapitulo_008.srt -c copy -c:s mov_text Capitulo_008.mp4
-    - travis-wait 20 curl -T Capitulo_008.mp4 https://transfer.sh/Capitulo_008.mp4
+    - travis_wait 20 curl -T Capitulo_008.mp4 https://transfer.sh/Capitulo_008.mp4
     - mega-get https://mega.nz/file/M7AilbIK#_Zbhqt44dWPZxospP00ToM3qNAMAB9yLblDUdAvCM0o aCapitulo_009.mp4
     - mega-get https://mega.nz/file/RjJCXD6a#RO6VdMo4fW5neB_zWz9nSje_Ohd07PIvvqeCKHqnECg aCapitulo_009.srt
     - ffmpeg -i aCapitulo_009.mp4 -i aCapitulo_009.srt -c copy -c:s mov_text Capitulo_009.mp4
-    - travis-wait 20 curl -T Capitulo_009.mp4 https://transfer.sh/Capitulo_009.mp4
+    - travis_wait 20 curl -T Capitulo_009.mp4 https://transfer.sh/Capitulo_009.mp4
     - mega-get https://mega.nz/file/4rB0iRCI#xNysV_6JkIDwqBHqy5-syIAjet38X49W2qaty5KuhbE aCapitulo_010.mp4
     - mega-get https://mega.nz/file/UjBQTR4L#Az1I7KE-3PiTH4-8-yC4zLAuSin7a1KZkL0cxj9Xjnc aCapitulo_010.srt
     - ffmpeg -i aCapitulo_010.mp4 -i aCapitulo_010.srt -c copy -c:s mov_text Capitulo_010.mp4
-    - travis-wait 20 curl -T Capitulo_010.mp4 https://transfer.sh/Capitulo_010.mp4
+    - travis_wait 20 curl -T Capitulo_010.mp4 https://transfer.sh/Capitulo_010.mp4
     - mega-get https://mega.nz/file/VyByAJhK#CKsXlE8SmLbWrVnqdAeR6rZW2lmCHNRh_PXfF7a5MxE aCapitulo_011.mp4
     - mega-get https://mega.nz/file/g6I2RTjK#UZjCNdhx075yI5orgo45vwZP-xOAdKLUbBfwQJLTg7E aCapitulo_011.srt
     - ffmpeg -i aCapitulo_011.mp4 -i aCapitulo_011.srt -c copy -c:s mov_text Capitulo_011.mp4
-    - travis-wait 20 curl -T Capitulo_011.mp4 https://transfer.sh/Capitulo_011.mp4
+    - travis_wait 20 curl -T Capitulo_011.mp4 https://transfer.sh/Capitulo_011.mp4
     - mega-get https://mega.nz/file/B7YGDLbK#UuGSljcT68vxuc85DNdbytwqMg1CWdzhus6ca3O0H3c aCapitulo_012.mp4
     - mega-get https://mega.nz/file/RqQSxLzR#mshaHke8N8UQGMm09l9VKDOzhTXWygBbHAZ088KYYE0 aCapitulo_012.srt
     - ffmpeg -i aCapitulo_012.mp4 -i aCapitulo_012.srt -c copy -c:s mov_text Capitulo_012.mp4
-    - travis-wait 20 curl -T Capitulo_012.mp4 https://transfer.sh/Capitulo_012.mp4
+    - travis_wait 20 curl -T Capitulo_012.mp4 https://transfer.sh/Capitulo_012.mp4
     - mega-get https://mega.nz/file/hrYmGb5Y#K1le9IzFC684Ahp_U71VAJUlFp9JAUKHvi1u5cKuGJI aCapitulo_013.mp4
     - mega-get https://mega.nz/file/M6QkRRCZ#ezNECuJnAOcNEizvk76TlRdcPkWmOjgxSoOuL5dAMWA aCapitulo_013.srt
     - ffmpeg -i aCapitulo_013.mp4 -i aCapitulo_013.srt -c copy -c:s mov_text Capitulo_013.mp4
-    - travis-wait 20 curl -T Capitulo_013.mp4 https://transfer.sh/Capitulo_013.mp4
+    - travis_wait 20 curl -T Capitulo_013.mp4 https://transfer.sh/Capitulo_013.mp4
     - mega-get https://mega.nz/file/o2YgUTyb#gVTVeC1-5UXeWfmLSkGxR5j_C5IWXPFCTRe0RGk99qA aCapitulo_014.mp4
     - mega-get https://mega.nz/file/oyIwFDKR#k3CTYnCJrvHKaXFTY-PCkqd4AMGlU3qexV_ddJdKqA4 aCapitulo_014.srt
     - ffmpeg -i aCapitulo_014.mp4 -i aCapitulo_014.srt -c copy -c:s mov_text Capitulo_014.mp4
-    - travis-wait 20 curl -T Capitulo_014.mp4 https://transfer.sh/Capitulo_014.mp4
+    - travis_wait 20 curl -T Capitulo_014.mp4 https://transfer.sh/Capitulo_014.mp4
     - mega-get https://mega.nz/file/4zQAFBoD#6oysgyiMi8Xw6DgPMm1F2zg6ajpVFl-qjAIE3Wmdbes aCapitulo_015.mp4
     - mega-get https://mega.nz/file/MiBWhJ7K#WPiaULlhS_Ctmo365vGHNHsrO8CsMJ1QA4lY9tA84Ko aCapitulo_015.srt
     - ffmpeg -i aCapitulo_015.mp4 -i aCapitulo_015.srt -c copy -c:s mov_text Capitulo_015.mp4
-    - travis-wait 20 curl -T Capitulo_015.mp4 https://transfer.sh/Capitulo_015.mp4
+    - travis_wait 20 curl -T Capitulo_015.mp4 https://transfer.sh/Capitulo_015.mp4
     - mega-get https://mega.nz/file/0nQE0D4J#dEKS12ssa1tctC70vFlbOz5p1cPqV2Uw0mm4Nl58fzo aCapitulo_016.mp4
     - mega-get https://mega.nz/file/giZCRZIa#nhxXcKmMK3n_jMnHXUBM_VN4UZsa-nR0hRFP4R9WPWU aCapitulo_016.srt
     - ffmpeg -i aCapitulo_016.mp4 -i aCapitulo_016.srt -c copy -c:s mov_text Capitulo_016.mp4
-    - travis-wait 20 curl -T Capitulo_016.mp4 https://transfer.sh/Capitulo_016.mp4
+    - travis_wait 20 curl -T Capitulo_016.mp4 https://transfer.sh/Capitulo_016.mp4
     - mega-get https://mega.nz/file/xnZgEJrJ#wbCQgnMKqskEceBPIJQWvPp-dJn-pW77F0FUiGM4Pj8 aCapitulo_017.mp4
     - mega-get https://mega.nz/file/s3A2hRIY#k423oBsMQMd5jVBUjFbdDEa9QdH8N8CGDJt1yOm1M4c aCapitulo_017.srt
     - ffmpeg -i aCapitulo_017.mp4 -i aCapitulo_017.srt -c copy -c:s mov_text Capitulo_017.mp4
-    - travis-wait 20 curl -T Capitulo_017.mp4 https://transfer.sh/Capitulo_017.mp4
+    - travis_wait 20 curl -T Capitulo_017.mp4 https://transfer.sh/Capitulo_017.mp4
     - mega-get https://mega.nz/file/s7BQwLDC#Cw-A-JZ85ARThOjeEmfvQ4msjCN-S04CDGGSkIMRbR8 aCapitulo_018.mp4
     - mega-get https://mega.nz/file/8yYSRBIA#qmpmizoh5B5zcNfNswaIyTyAdQlmuG9n-Rrn5v3DJas aCapitulo_018.srt
     - ffmpeg -i aCapitulo_018.mp4 -i aCapitulo_018.srt -c copy -c:s mov_text Capitulo_018.mp4
-    - curl -T Capitulo_018.mp4 https://transfer.sh/Capitulo_018.mp4
+    - travis_wait 20 curl -T Capitulo_018.mp4 https://transfer.sh/Capitulo_018.mp4
     - mega-get https://mega.nz/file/U3I23JgA#gdchQdDJT3YiEDNKnRtyG0fSh-1oWfrJ51_l5-42Rmc aCapitulo_019.mp4
     - mega-get https://mega.nz/file/Z2RgxTSa#w-3kIexxRiVntzIjYIuOv7-1R6dzRq0RoX7SGwBKg2M aCapitulo_019.srt
     - ffmpeg -i aCapitulo_019.mp4 -i aCapitulo_019.srt -c copy -c:s mov_text Capitulo_019.mp4
-    - curl -T Capitulo_019.mp4 https://transfer.sh/Capitulo_019.mp4
+    - travis_wait 20 curl -T Capitulo_019.mp4 https://transfer.sh/Capitulo_019.mp4
     - mega-get https://mega.nz/file/pnAkxT7a#Coe4O0YSCBIohduUr-p8WeQBBl3b3j6mlnvyYLF2sSc aCapitulo_020.mp4
     - mega-get https://mega.nz/file/0mRwhRrB#DDXO-AebELYZIU1w6dF663LLnkwYHEQ7MmCQXz3BfIc aCapitulo_020.srt
     - ffmpeg -i aCapitulo_020.mp4 -i aCapitulo_020.srt -c copy -c:s mov_text Capitulo_020.mp4
-    - curl -T Capitulo_020.mp4 https://transfer.sh/Capitulo_020.mp4
+    - travis_wait 20 curl -T Capitulo_020.mp4 https://transfer.sh/Capitulo_020.mp4

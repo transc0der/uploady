@@ -17,43 +17,43 @@ script:
     - sudo dpkg -i megacmd.deb
     - mega-login $user $pass
 #Massive
-    - mega-get https://mega.nz/file/BvYQyDyI#CfHXHQoggT1eH2akLrHrhmEBnYNKPc5ScSSVk-sXwkc aCapitulo_049.mp4
-    - mega-get https://mega.nz/file/RzIQFTBD#T49r20XHiwt0WGMJCgJs7Wdn-95a3-zz5lrFO21s75Y aCapitulo_049.srt
-    - ffmpeg -i aCapitulo_049.mp4 -i aCapitulo_049.srt -c copy -c:s mov_text Capitulo_049.mp4
-    - travis_wait 20 curl -T Capitulo_049.mp4 https://transfer.sh/Capitulo_049.mp4
-    - mega-get https://mega.nz/file/k2IUUDyZ#pUZzcVzpu1Yd37wz9xHFUgsZCVAGoY74ZH6vfmLffj0 aCapitulo_050.mp4
-    - mega-get https://mega.nz/file/xqQGgZTQ#c77nUgSJCF0gtHWYgEWsyAU7MQ3l7Za2Zmv9_2iE50o aCapitulo_050.srt
-    - ffmpeg -i aCapitulo_050.mp4 -i aCapitulo_050.srt -c copy -c:s mov_text Capitulo_050.mp4
-    - travis_wait 20 curl -T Capitulo_050.mp4 https://transfer.sh/Capitulo_050.mp4
-    - mega-get https://mega.nz/file/N7JWTDoL#3toiSQCfETME_LUQJOf6IDSHPmhBwfE6nmpSF-5oJDw aCapitulo_051.mp4
-    - mega-get https://mega.nz/file/ArIAkDzR#00-kfXjXRsDMbvYilRYwMp00P47nU64GrV1Ajqg6cqQ aCapitulo_051.srt
-    - ffmpeg -i aCapitulo_051.mp4 -i aCapitulo_051.srt -c copy -c:s mov_text Capitulo_051.mp4
-    - travis_wait 20 curl -T Capitulo_051.mp4 https://transfer.sh/Capitulo_051.mp4
-    - mega-get https://mega.nz/file/5vQglLIa#fN4CEaAjmBbK1aAphjz-OxmiAYEdeH_Aa-v3lXIyYgc aCapitulo_052.mp4
-    - mega-get https://mega.nz/file/4vRQTTKL#70GluaCasZm5Kz3D9iGMejGCVrErgfIYIYJ1whGodI0 aCapitulo_052.srt
-    - ffmpeg -i aCapitulo_052.mp4 -i aCapitulo_052.srt -c copy -c:s mov_text Capitulo_052.mp4
-    - travis_wait 20 curl -T Capitulo_052.mp4 https://transfer.sh/Capitulo_052.mp4
-    - mega-get https://mega.nz/file/RiY2RDga#z76ydwhrbPsWnw6VzrKEFXMU0izJUsTacK0sPReiSWo aCapitulo_053.mp4
-    - mega-get https://mega.nz/file/JvBmiRZY#sInx6x7mfBb35jcAVblHl94JKnvx41Mt-fCCAoEW1YI aCapitulo_053.srt
-    - ffmpeg -i aCapitulo_053.mp4 -i aCapitulo_053.srt -c copy -c:s mov_text Capitulo_053.mp4
-    - travis_wait 20 curl -T Capitulo_053.mp4 https://transfer.sh/Capitulo_053.mp4
-    - mega-get https://mega.nz/file/InQwjZ5A#792kd_PK0MvVxOt3lsWLcXbKNsYDBZB-bbFADr7MAuM aCapitulo_054.mp4
-    - mega-get https://mega.nz/file/83BUBbLa#LOpahKzH-SRpjNMTqNgQsXIf_doBlVexwyVrwIYhXJ8 aCapitulo_054.srt
-    - ffmpeg -i aCapitulo_054.mp4 -i aCapitulo_054.srt -c copy -c:s mov_text Capitulo_054.mp4
-    - travis_wait 20 curl -T Capitulo_054.mp4 https://transfer.sh/Capitulo_054.mp4
-    - mega-get https://mega.nz/file/8mR0QDKA#lK8CzZq_vD-E1T-j-IPF0xbvz5FhxnclG9Q-uFsgNls aCapitulo_055.mp4
-    - mega-get https://mega.nz/file/0rYmXRjL#LUvzsrTMuLf2jW_OaTCFGqfX-rt2hMtMojtlWGsh5Hg aCapitulo_055.srt
-    - ffmpeg -i aCapitulo_055.mp4 -i aCapitulo_055.srt -c copy -c:s mov_text Capitulo_055.mp4
-    - travis_wait 20 curl -T Capitulo_055.mp4 https://transfer.sh/Capitulo_055.mp4
-    - mega-get https://mega.nz/file/A2YkADrK#g1l9DPxeVBDuAB3k5cBHV7rHkCP7GmcXsD8PWcYIUBM aCapitulo_056.mp4
-    - mega-get https://mega.nz/file/tvQGwDLZ#fd01YvjCMg6eqKnjbSAaHbGQjSBB1B4ZBkWwhiDfj6I aCapitulo_056.srt
-    - ffmpeg -i aCapitulo_056.mp4 -i aCapitulo_056.srt -c copy -c:s mov_text Capitulo_056.mp4
-    - travis_wait 20 curl -T Capitulo_056.mp4 https://transfer.sh/Capitulo_056.mp4
-    - mega-get https://mega.nz/file/p2RSgDiJ#Dxk4jtOlapL-XE0OTLPupFB62kTeHBZm1Mw9JVJtXQw aCapitulo_057.mp4
-    - mega-get https://mega.nz/file/UyRywD7J#XtKJ4PO3u4zeAU6gRjnbXiaL_4kuB5hCqsjbaKxB67o aCapitulo_057.srt
-    - ffmpeg -i aCapitulo_057.mp4 -i aCapitulo_057.srt -c copy -c:s mov_text Capitulo_057.mp4
-    - travis_wait 20 curl -T Capitulo_057.mp4 https://transfer.sh/Capitulo_057.mp4
-    - mega-get https://mega.nz/file/BzYU2TAZ#Dla1JEvSlCAAQBZgNKY5RLWhp_gVupTR9NzX0Ccjjew aCapitulo_058.mp4
-    - mega-get https://mega.nz/file/s2YGhbhS#s-LmSHQDMT4iM0NV8N5u61kCmU_UAKd565V7WNHSbBg aCapitulo_058.srt
-    - ffmpeg -i aCapitulo_058.mp4 -i aCapitulo_058.srt -c copy -c:s mov_text Capitulo_058.mp4
-    - travis_wait 20 curl -T Capitulo_058.mp4 https://transfer.sh/Capitulo_058.mp4
+    - mega-get https://mega.nz/file/s6AmlZwT#Cd7p7szAgNyGwQH_S7OwfdNJ-uEAhhMAcwMGAsJT1TM aCapitulo_059.mp4
+    - mega-get https://mega.nz/file/EmYCWZrB#TzUNOAyRn8LzrOPKuiQ3WcrydDh9Kl5BcAqACckh35E aCapitulo_059.srt
+    - ffmpeg -i aCapitulo_059.mp4 -i aCapitulo_059.srt -c copy -c:s mov_text Capitulo_059.mp4
+    - travis_wait 20 curl -T Capitulo_059.mp4 https://transfer.sh/Capitulo_059.mp4
+    - mega-get https://mega.nz/file/AjJ2UbLD#vwVcgLQF9pcH-tTUBvBfdgKSKQQesnOPlf8mxGOrZUo aCapitulo_060.mp4
+    - mega-get https://mega.nz/file/5yAyhbrJ#LTUGONMehCCoAS20WPjZo3lYOxFKvW6550qEV4Qr7r8 aCapitulo_060.srt
+    - ffmpeg -i aCapitulo_060.mp4 -i aCapitulo_060.srt -c copy -c:s mov_text Capitulo_060.mp4
+    - travis_wait 20 curl -T Capitulo_060.mp4 https://transfer.sh/Capitulo_060.mp4
+    - mega-get https://mega.nz/file/xzJUWZyI#_sgDZ-E7Qvdcoj07F--Ofw7eF3goSF5GYva3AC3B9j4 aCapitulo_061.mp4
+    - mega-get https://mega.nz/file/cjZmXLhJ#okQtxjCwDX2UwCprCBi3fbuk8w-gwI0QFGObbwYxBAw aCapitulo_061.srt
+    - ffmpeg -i aCapitulo_061.mp4 -i aCapitulo_061.srt -c copy -c:s mov_text Capitulo_061.mp4
+    - travis_wait 20 curl -T Capitulo_061.mp4 https://transfer.sh/Capitulo_061.mp4
+    - mega-get https://mega.nz/file/QuRCUDqJ#AsI2r1673UplhdQx6VZRQFc08MTrcOGNcf-e7AOzUtM aCapitulo_062.mp4
+    - mega-get https://mega.nz/file/w7J2CbrL#-S5CguZVJVYZre0Xvy9khxJ9O4XldS2QRKr8kY9-E5s aCapitulo_062.srt
+    - ffmpeg -i aCapitulo_062.mp4 -i aCapitulo_062.srt -c copy -c:s mov_text Capitulo_062.mp4
+    - travis_wait 20 curl -T Capitulo_062.mp4 https://transfer.sh/Capitulo_062.mp4
+    - mega-get https://mega.nz/file/ozJylbxB#bmPWmrNI48OxRIN-O76LRuETDVmfOnlCI48LWn0yeg0 aCapitulo_063.mp4
+    - mega-get https://mega.nz/file/pmIwjR4Q#fTUgUnJWOGw2QmJ6FKPwT_mdsRBcGccSPj6gBDe0k7o aCapitulo_063.srt
+    - ffmpeg -i aCapitulo_063.mp4 -i aCapitulo_063.srt -c copy -c:s mov_text Capitulo_063.mp4
+    - travis_wait 20 curl -T Capitulo_063.mp4 https://transfer.sh/Capitulo_063.mp4
+    - mega-get https://mega.nz/file/5uIGyZwJ#wrTSqmqvHNbuKZ3w5JYKV4WYTd4NM3l6oN3mCErsgE0 aCapitulo_064.mp4
+    - mega-get https://mega.nz/file/FrYEhBxb#5HEbjSOYpzXu1Y5SRNbcpUcYHjGuyQX2vH4GMpt24Io aCapitulo_064.srt
+    - ffmpeg -i aCapitulo_064.mp4 -i aCapitulo_064.srt -c copy -c:s mov_text Capitulo_064.mp4
+    - travis_wait 20 curl -T Capitulo_064.mp4 https://transfer.sh/Capitulo_064.mp4
+    - mega-get https://mega.nz/file/1qRGkZgY#5t_RJ2psTEFR227BUpDkZz96OUunuJ3RZyE4vWk3W-4 aCapitulo_065.mp4
+    - mega-get https://mega.nz/file/MiREwRRA#QmhdvOo6IhIKAUN1mfc75mZnKh4UKRmx_XMKPcnI2To aCapitulo_065.srt
+    - ffmpeg -i aCapitulo_065.mp4 -i aCapitulo_065.srt -c copy -c:s mov_text Capitulo_065.mp4
+    - travis_wait 20 curl -T Capitulo_065.mp4 https://transfer.sh/Capitulo_065.mp4
+    - mega-get https://mega.nz/file/szYQWbxQ#gJKejSYa603lggj2heIe02LAmiOSw0EOLKP26FnAffs aCapitulo_066.mp4
+    - mega-get https://mega.nz/file/YnQ2HLZD#c_qhHnb4XcPuaMl6cciWB1DnKOS8sTwr0e5jtPjsUN8 aCapitulo_066.srt
+    - ffmpeg -i aCapitulo_066.mp4 -i aCapitulo_066.srt -c copy -c:s mov_text Capitulo_066.mp4
+    - travis_wait 20 curl -T Capitulo_066.mp4 https://transfer.sh/Capitulo_066.mp4
+    - mega-get https://mega.nz/file/tvZkhLLC#3XQymspB_GNSnGwcErPEKNuh13cPIU5ck7aHkYoO40o aCapitulo_067.mp4
+    - mega-get https://mega.nz/file/kqJygBJC#NTU2PyRgtUhUEP-sLEFl-M5LYkaMcytgxIA95JhHjik aCapitulo_067.srt
+    - ffmpeg -i aCapitulo_067.mp4 -i aCapitulo_067.srt -c copy -c:s mov_text Capitulo_067.mp4
+    - travis_wait 20 curl -T Capitulo_067.mp4 https://transfer.sh/Capitulo_067.mp4
+    - mega-get https://mega.nz/file/tyQSCZDJ#ZXK1cVUjj20Jhpl1U9cG5oeZx12ZU_OBZh220Td_uW4 aCapitulo_068.mp4
+    - mega-get https://mega.nz/file/lqQSlDZa#pjoSV4UdcH4A0Hjuyfn1M8-5xrfypYJBqvvY8JnYp6I aCapitulo_068.srt
+    - ffmpeg -i aCapitulo_068.mp4 -i aCapitulo_068.srt -c copy -c:s mov_text Capitulo_068.mp4
+    - travis_wait 20 curl -T Capitulo_068.mp4 https://transfer.sh/Capitulo_068.mp4

@@ -16,7 +16,7 @@ script:
     - wget https://transfer.sh/3uC8Dc/megacmd.deb
     - sudo dpkg -i megacmd.deb
     - mega-login $user $pass
-#Massive
+    #Massive
     - mega-get https://mega.nz/file/lrQSSbIY#0XCwyG8JYig3ThiCOnDTZnP4wdILGBa7e_5oHt6Z_Vk aCapitulo_069.mp4
     - mega-get https://mega.nz/file/kzRUABAQ#-iJ-pHaubt5FdGsHh0yJjkR4Ozk5tV6GK3qb7mfq-HE aCapitulo_069.srt
     - ffmpeg -i aCapitulo_069.mp4 -i aCapitulo_069.srt -c copy -c:s mov_text Capitulo_069.mp4
